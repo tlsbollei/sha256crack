@@ -1,4 +1,4 @@
-# sha256crack
+# SHA256CRACK
 password cracking tool written in c++
 
 Utilizes 2 attack modes - Brute Force and a Dictionary attack
