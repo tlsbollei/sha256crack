@@ -53,7 +53,7 @@ void startBruteForce(const std::string& targetHash, const std::string& charset, 
 void dictionaryAttack(const std::string& targetHash, const std::string& dictionaryFile) {
     std::ifstream file(dictionaryFile);
     if (!file.is_open()) {
-        std::cout << "Error: Could not open dictionary file." << std::endl;
+        std::cout << "could not open dictionary file." << std::endl;
         return;
     }
 
